@@ -9,9 +9,14 @@
     <!-- -
         This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
         For more information, see https://support.google.com/admob/answer/3052638
-    <!- -->
+    <!- below code is my admob unit code-->
     <string name="interstitial_ad_unit_id">ca-app-pub-4074100980294456/6318473795</string>
     <string name="banner_ad_unit_id">ca-app-pub-4074100980294456/5963250576</string>
+
+
+    <!--    testing code unit-->
+<!--    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
 
     <string name="handsdesign">Hand Mehndi Designs</string>
     <string name="armsdesing">Arm Mehndi Designs</string>
@@ -22,4 +27,8 @@
     <string name="hometitle">Complete Mehndi Pack</string>
     <string name="titleSub">EID 2020 Mehndi Desings</string>
     <string name="about">Developed By: Laeeq Khan\n laiqkhan0000@gmail.com</string>
+
+    <string name="title_activity_welcome_screen">WelcomeScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.MehndiDesigns2020"
     android:hardwareAccelerated="false"
-    android:largeHeap="true"
-    >
+    android:largeHeap="true">
 
     <!-- Include required permissions for Google Mobile Ads to run. -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,13 +17,15 @@
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
             android:name=".HomeAdActivity"
-            android:label="EID 2020 Mehndi Designs">
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="EID 2020 Mehndi Designs"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Include the AdActivity configChanges and theme. -->
+
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
@@ -32,15 +33,12 @@
         <activity android:name=".DesignsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-
             </intent-filter>
         </activity>
 
         <meta-data
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
-            android:value="true"/>
-
+            android:value="true" />
     </application>
 
 </manifest>
